@@ -17,11 +17,16 @@ enum clima {sol = 0, chuva = 1, nublado = 2};
  * @param y Segundo valor inteiro a ser trocado.
  * @param z Terceiro valor inteiro a ser trocado.
  */
+
 void swap(int &x, int &y, int &z){
     int temp = x;
     x = y;
     y = z;
     z = temp;
+}
+
+int contarArray(int arr[], int tamanho) {
+    return tamanho; // O tamanho é passado para a função diretamente
 }
 
 /**
